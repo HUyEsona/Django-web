@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            width: 300px;
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.5s;
+        }
+        .product:hover {
+            transform: translateY(-10px) rotateX(10deg);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shop Online</h1>
+    </header>
+
+    <nav>
+
+        <section style="text-align: center;">
+            <h2>Chúng Tôi Là Ai?</h2>
+            <p style="font-weight: bold; font-size: 1.2em;">Chúng tôi là một cửa hàng trực tuyến cung cấp các sản phẩm thời trang chất lượng. Chúng tôi cam kết mang đến cho khách hàng những sản phẩm tốt nhất với giá cả hợp lý.</p> 
+        </section>
+        
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Sản Phẩm</a></li>
+            <li><a href="#">Giỏ Hàng</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="product">
+            <img src="https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=80,format=auto/uploads/December2023/hihiaMask_group.jpg" alt="Áo Thun">
+            <h3>Áo Thun</h3>
+            <p>Áo thun chất lượng, thoải mái.</p>
+            <p>Giá: $20</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/100/405/002/products/10-7854e74f-0961-4ea0-9e62-57c36d250a92.png?v=1664334812292" alt="Quần Jean">
+            <h3>Quần Jean</h3>
+            <p>Quần jean thời trang, phong cách.</p>
+            <p>Giá: $30</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/100/367/913/products/dong-ho-rolex-nam-automatic-vang-mat-khia-xanh-la-41mm-9.jpg?v=1624682980453" alt="Đồng Hồ">
+            <h3>Đồng Hồ</h3>
+            <p>Đồng Hồ Rolex, thoải mái, chất lượng.</p>
+            <p>Giá: $100</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlOhWFhjF-RL1HaxYSMZBiPtowP-An5z1bzX3t2bMFLg&s" alt="Dây Nịt ">
+            <h3>Dây Nịt</h3>
+            <p>Dây Nịt Da Bò, thoải mái, Chất Lượng.</p>
+            <p>Giá: $70</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/100/405/002/products/101.png?v=1692951656860" alt="Giày Thể Thao">
+            <h3>Giày Thể Thao</h3>
+            <p>Giày Thể Thao.</p>
+            <p>Giá: $120</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://locknlockvietnam.com/wp-content/uploads/2022/03/binh-giu-nhiet-locknlock-feather-light-ring-460ml-10.jpg" alt="Chai Nước Giữ Nhiệt">
+            <h3>Chai Nước Giữ Nhiệt</h3>
+            <p>Chai Nước Giữ Nhiệt, Giữ Nhiệt Lâu, Làm Bằng Chất Lượng Cao.</p>
+            <p>Giá: $60</50p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/100/438/408/products/ao-thun-the-thao-nam-yody-stm6107-xah-4.jpg?v=1704250036000" alt="Áo Thun Thể Dụ">
+            <h3>Áo Thun Thể Dục</h3>
+            <p>Áo Thun Nam Giới, Chất Lượng Cao, Mát Mẻ.</p>
+            <p>Giá: $70</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <img src="https://image.made-in-china.com/2f0j00mELqZckbCRoG/Sex-Yoga-Pants-for-Women-Workout-Fitness-Wear-High-Waist-Yoga-Wear-Sports-Sexy-Yoga-Leggings.webp" alt="Quần Yoga Pant ">
+            <h3>Quần Yoga Pant</h3>
+            <p>Quần Yoga Pant Cho Phụ Nữ Tập Gym.</p>
+            <p>Giá: $70</p>
+            <button>Mua Ngay</button>
+        </div>
+        <!-- Thêm các sản phẩm khác ở đây :)) -->
+    </section>
+
+    <footer>
+        <p>Bản quyền &copy; 2024 - Shop Công Nghệ Thông Tin DL22 Online</p>
+    </footer>
+
+</body>
+</html>
