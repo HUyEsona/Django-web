@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cart-item {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .cart-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .cart-item-info {
+            flex: 1;
+        }
+        .cart-item-info h3 {
+            margin: 0;
+        }
+        .cart-item-info p {
+            margin: 5px 0;
+        }
+        .cart-item-info button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cart-total {
+            margin-top: 20px;
+            text-align: right;
+        }
+        .cart-total p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Giỏ Hàng</h2>
+        <div class="cart-item">
+            <img src="https://via.placeholder.com/100" alt="Product Image">
+            <div class="cart-item-info">
+                <h3>Tên Sản Phẩm</h3>
+                <p>Giá: $20</p>
+                <p>Số Lượng: 1</p>
+                <button>Xóa</button>
+            </div>
+        </div>
+        <!-- Add more cart items here -->
+        <div class="cart-total">
+            <p>Tổng Tiền: $20</p>
+            <button>Thanh Toán</button>
+        </div>
+    </div>
+</body>
+</html>
