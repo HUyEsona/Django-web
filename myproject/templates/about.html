@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            overflow-y: scroll; /* Thêm thanh cuộn theo chiều dọc */
     
         }
         header {
@@ -23,12 +24,31 @@
             align-items: center;
             font-size: 30px; /* Thay đổi kích thước chữ  tiêu đề tại đây */
         }
+        nav {
+            background-color: #f4f4f4;
+            padding: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 70px; /* Thêm khoảng cách giữa các liên kết */
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px; /* Thay đổi kích thước chữ tại đây */
+        }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             text-align: match-parent;
-            font-size: 17px;
+            font-size: 15px;
         }
         h1 {
             margin-bottom: 20px;
@@ -51,12 +71,23 @@
     <header>
         <h1>Shop Bán Hàng Online Đồ Thể Dục Thể Thao.</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="/trang_chu/">Trang Chủ</a></li>
+            <li><a href="/san_pham/">Sản Phẩm</a></li>
+            <li><a href="/gio_hang/">Giỏ Hàng</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/lien_he/">Liên Hệ</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <p2>About Us.</p2>
         <p>Welcome to our online store! We are passionate about providing high-quality products and exceptional customer service to shoppers worldwide. Here at our store, we strive to offer a diverse selection of products to meet the needs of every fitness enthusiast.</p>
         <p>Our mission is to empower individuals to lead healthier and more active lifestyles by providing them with the tools and apparel they need to achieve their fitness goals. Whether you're a seasoned athlete or just starting your fitness journey, we're here to support you every step of the way.</p>
         <p>At our online store, you'll find a curated collection of premium athletic wear, workout equipment, and accessories from top brands in the industry. We carefully select each product to ensure it meets our high standards of quality, performance, and style.</p>
+        
         <p>Thank you for choosing us as your trusted source for all your fitness and athletic needs. We look forward to serving you and helping you reach new heights in your fitness journey!</p>
+        
     </div>
     </section>
 
